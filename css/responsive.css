@@ -1,0 +1,149 @@
+@media (max-width:1200px) {
+    .works-item {
+        padding: 18px;
+        width: 210px;
+    }
+
+    .works-heading {
+        font-size: 18px;
+    }
+}
+@media (max-width:800px) {
+    .dishes-item {
+        width: 270px;
+    }
+
+    .dishes-desc {
+        width: 220px
+    }
+
+    .order-btn {
+        padding: 0 20px;
+    }
+
+    .dishes-status {
+        flex-direction: column;
+    }
+}
+@media (max-width:1000px) {
+    .hero-heading {
+        font-size: 50px;
+    }
+    .hero-text {
+        max-width: 500px;
+        font-size: 14px;
+    }
+    .hero-btn {
+        padding: 21px 50px;
+        font-size: 14px;
+    }
+
+    .works-list {
+        display: flex;
+        gap: 30px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:768px){
+
+    .logo-link {
+        font-size: 12px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 30%;
+        background-color: #060d1a;
+        padding: 20px 60px;
+        transition: 0.3s ease;
+        transform: translateY(-130%);
+    }
+
+    .open .nav-list {
+        transform: translateY(0);
+    }
+    .menu-btn {
+        display: block;
+        border-radius: 60%;
+        border: none;
+        width: 50px;
+        height: 40px;
+        background-color: #fff;
+        background-image: url(../img/menu-bar.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero-heading {
+        font-size: 30px;
+    }
+    .hero-text {
+        max-width: 500px;
+        font-size: 12px;
+    }
+    .hero-btn {
+        padding: 16px 40px;
+        font-size: 12px;
+    }
+    .info-list {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .info-item {
+        margin: auto;
+    }
+
+    .section-bg-title {
+        font-size: 70px;
+    }
+
+    .section-title {
+        font-size: 20px;
+        top: 30px;
+        left: calc(50% - 90px);
+    }
+
+    .dishes-list {
+        margin: auto;
+        justify-content: center;
+    }
+}
+
+@media (max-width:400px) {
+    .dishes .section-bg-title {
+        font-size: 50px;
+    }
+    .dishes .section-title {
+        left: calc(65% - 180px);
+        top: 30%;
+    }
+}
+
+
+@media (max-width:400px){
+
+    .logo-link {
+        font-size: 10px;
+    }
+
+    .menu-btn {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width:360px) {
+    .dishes .section-bg-title {
+        font-size: 45px;
+    }
+    .dishes .section-title {
+        font-size: 17px;
+        left: calc(65% - 140px);
+        top: 30%;
+    }
+}
